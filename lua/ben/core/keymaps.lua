@@ -23,3 +23,6 @@ keymap.set("n", "<tab>", ":tabn<CR>") --  go to previous tab
 keymap.set("n", "<S-tab>", ":tabp<CR>") --  go to previous tab
 
 keymap.set("n", "<C-n>", ":NvimTreeToggle<CR>") -- toggle file explorer
+
+keymap.set("n", "<leader>db", ":DapToggleBreakpoint <CR>")
+keymap.set("n", "<leader>dr", ":DapContinue <CR>")
